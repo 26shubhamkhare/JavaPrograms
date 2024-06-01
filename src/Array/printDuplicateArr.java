@@ -9,7 +9,7 @@ public class printDuplicateArr {
 		{
 			for(int j= i+1; j<arr.length; j++) {
 				if(arr[i]==arr[j]) {
-					System.out.println("The duplicate elements in an Arrays are:" + arr[j]);
+					System.out.println("The duplicate elements in an Arrays are:" + arr[i]);
 				}
 			}
 		}

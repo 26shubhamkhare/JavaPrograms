@@ -2,7 +2,7 @@
 public class palindromeNumber {
 
 	public static void main(String[] args) {
-		int num = 3554, reversedNum = 0, remainder;
+		int num = 12345, reversedNum = 0, remainder;
 	    
 	    // store the number to originalNum
 	    int originalNum = num;
@@ -10,9 +10,9 @@ public class palindromeNumber {
 	    // get the reverse of originalNum
 	    // store it in variable
 	    while (num != 0) {
-	      remainder = num % 10;
+	      remainder = num % 10;  // % get the last digit
 	      reversedNum = reversedNum * 10 + remainder;
-	      num /= 10;
+	      num /= 10; //  Remove the last digit
 	    }
 	    
 	    // check if reversedNum and originalNum are equal
