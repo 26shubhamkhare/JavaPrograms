@@ -63,7 +63,7 @@ public class RemoveDuplicateChar {
 	
 	public static void main(String[] args) {
 		//Program to remove the duplicate Characters from the String
-		String s = "Shubham Aabba";
+		String s = "ShuSsbham Aabba";
 		LinkedHashSet<Character> set = new LinkedHashSet<>();
 		for (int i=0; i< s.length(); i++)
 		{
