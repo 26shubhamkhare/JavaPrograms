@@ -1,4 +1,4 @@
-
+package Basic;
 public class ArmstrongNumber {
 	public static void isArmstrong(int n) {
 		int t, rem, cube=0 ;
@@ -18,7 +18,7 @@ public class ArmstrongNumber {
 	}
 	
 	public static void main(String[] args) {
-	isArmstrong(153);	
+	isArmstrong(150);	
 
 }
 }

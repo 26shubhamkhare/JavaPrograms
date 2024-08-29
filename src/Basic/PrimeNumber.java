@@ -1,8 +1,9 @@
+package Basic;
 // To check whether a No is Prime or Not
 public class PrimeNumber {
 
 	public static void main(String[] args) {
-		int i, num =8;
+		int i, num =50;
 		boolean flag = false;
 		for(i=2; i<= num/2; ++i) {
 			if(num %i == 0) {

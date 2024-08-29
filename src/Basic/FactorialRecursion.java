@@ -1,4 +1,4 @@
-
+package Basic;
 public class FactorialRecursion {
 	
 	public static int fact(int num) {

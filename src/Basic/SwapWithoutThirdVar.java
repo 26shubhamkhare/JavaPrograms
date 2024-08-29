@@ -1,4 +1,4 @@
-
+package Basic;
 public class SwapWithoutThirdVar {
 
 	public static void main(String[] args) {
