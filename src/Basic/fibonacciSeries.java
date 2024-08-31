@@ -2,16 +2,15 @@ package Basic;
 public class fibonacciSeries {
 
 	public static void main(String[] args) {
-		int n = 5, a = 0, b = 1;
-	    System.out.println("Fibonacci Series till " + n + " terms:");
-
-	    for (int i = 1; i <= n; ++i) {
-	      System.out.print(a + ", ");
-
-	      // compute the next term
-	      int c = a + b;
-	      a = b;
-	      b = c;
-	    }
-	}
+        // print fibonacci till N
+        int n = 7, a=0, b=1, c;
+        System.out.print(a+ " " + b+ " ");
+        for(int i =1; i<=n;i++)
+        {
+            c=a+b;
+            a=b;
+            b=c;
+            System.out.print(c + " ");
+        }
+    }
 }

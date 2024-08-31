@@ -3,20 +3,22 @@ package Basic;
 public class PrimeNumber {
 
 	public static void main(String[] args) {
-		int i, num =50;
-		boolean flag = false;
-		for(i=2; i<= num/2; ++i) {
-			if(num %i == 0) {
-				flag = true;
-				break;
-			}
-		}
-			if(!flag) 
-				System.out.println(num + " is a prime number.");
-			
-				else 
-					System.out.println(num + " is not a prime number.");
-		}
+		int n =59;
+		int flag = 0;
+		for(int i=2; i<=n/2; i++){
+		 if(n%i==0){
+			 flag = 1;
+			 break;
+		 }
+		 
+		} 
+		if(flag==0)
+		System.out.println("Num is Prime");
+		else
+		System.out.println("Not Prime");
+		
+ 
+	 }
 	}
 
 
