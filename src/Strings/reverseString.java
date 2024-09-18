@@ -4,7 +4,7 @@ package Strings;
 public class reverseString {
 
 	public static void main(String[] args) {
-		String str = "Shubham";
+		String str = "Shubham Khare";
 		String rev = "";
 		for (int i=0; i< str.length();i++) {
 			rev=  str.charAt(i)+ rev ;

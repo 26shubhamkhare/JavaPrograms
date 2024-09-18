@@ -7,7 +7,7 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
 
-public class DuplicateElement {
+public class PrintDuplicateWord {
 
 	public static void main(String[] args) {
 		// Print duplicate word from String s
