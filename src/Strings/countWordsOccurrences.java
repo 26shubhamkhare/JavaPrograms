@@ -1,6 +1,6 @@
 package Strings;
 
-public class countWordOccurrences {
+public class countWordsOccurrences {
     public static void main(String[] args) {
         // Input string
         String str = "Java is great and Java is powerful";

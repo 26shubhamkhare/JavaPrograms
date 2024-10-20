@@ -1,6 +1,9 @@
 package Array;
 
 public class RemoveDuplicatesbf {
+    public static void main(String[] args) {
+        
+    
     // Example array with duplicates
     int[] array = {1, 2, 3, 2, 4, 5, 3, 6, 5};
 
