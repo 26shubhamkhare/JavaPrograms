@@ -13,10 +13,10 @@ public class FibonacciRecursion {
     }
 
     public static void main(String[] args) {
-        int num = 6;
+        int num = 7;
 
         System.out.print("Fibonacci series: ");
-        for(int i = 0; i <= num; i++) {
+        for(int i = 0; i < num; i++) {
             System.out.print(fib(i) + " ");
         }
     }

@@ -3,7 +3,7 @@ public class ArmstrongNumber {
 	public static void isArmstrong(int n) {
 		int t, rem, cube=0 ;
 		t =n;
-		while(n>0) {
+		while(n!=0) {
 			rem = n%10;
 			n/=10;
 			cube = cube+(rem*rem*rem);
@@ -18,7 +18,7 @@ public class ArmstrongNumber {
 	}
 	
 	public static void main(String[] args) {
-	isArmstrong(150);	
+	isArmstrong(155);	
 
 }
 }
