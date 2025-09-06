@@ -1,41 +1,24 @@
 package Array;
 
-import java.util.HashSet;
+// import java.util.HashSet;
+import java.util.LinkedHashSet;
+import java.util.Set;
 
 public class RemoveDuplicatesOptimized {
     public static void main(String[] args) {
         // Example array with duplicates
-        int[] array = {1, 2, 3, 2, 4, 5, 3, 6, 5};
+        int[] arr = {1, 2, 3, 2, 4, 1, 5};
 
-        // Call the function to remove duplicates
-        int[] result = removeDuplicatesOptimized(array);
-
-        // Print the array without duplicates
-        System.out.print("Array without duplicates: ");
-        for (int i = 0; i < result.length; i++) {
-            System.out.print(result[i] + " ");
-        }
-}
- // Function to remove duplicates using HashSet
-    public static int[] removeDuplicatesOptimized(int[] array) {
-        // Use a HashSet to store unique elements
-        HashSet<Integer> set = new HashSet<>();
-        
-        // Add elements from the array to the HashSet
-        for (int num : array) {
+        Set<Integer> set = new LinkedHashSet<>(); // maintains order
+        for (int num : arr) {
             set.add(num);
         }
 
-        // Create a result array with the size of the HashSet
-        int[] result = new int[set.size()];
-        int i = 0;
-
-        // Add elements from the HashSet to the result array
+        // print unique elements
         for (int num : set) {
-            result[i++] = num;
+            System.out.print(num + " ");
         }
 
-        return result;
     }
 }
 
